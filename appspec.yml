@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: HelloWorld.py
-    destination: /var/www/html/HelloWorld.py
+  - source: /
+    destination: /var/www/html/HelloWorld
 hooks:
   BeforeInstall:
     - location: python HelloWorld_tst.py
