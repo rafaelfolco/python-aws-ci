@@ -4,8 +4,6 @@ files:
   - source: /
     destination: /var/www/html
 hooks:
-  BeforeInstall:
-    - location: python HelloWorld_tst.py
   ApplicationStart:
     - location: python HelloWorld.py
       timeout: 10
